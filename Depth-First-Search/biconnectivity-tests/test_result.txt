@@ -1,0 +1,17 @@
+[cheimu@localhost hw2]$ ./dfs ../hw2-testcase/n16d3s17.txt
+4 is articulation point
+Biconnected component: (9, 4)(6, 9)(4, 6) 
+3 is articulation point
+Biconnected component: (14, 8)(14, 7)(14, 3)(11, 14)(13, 8)(13, 7)(13, 3)(11, 13)(11, 7)(11, 3)(8, 11)(8, 3)(7, 8)(3, 7) 
+10 is articulation point
+Biconnected component: (10, 3) 
+2 is articulation point
+Biconnected component: (2, 10) 
+Biconnected component: (15, 0)(12, 15)(12, 1)(12, 0)(5, 12)(5, 1)(2, 5)(4, 1)(2, 4)(2, 0)(1, 2)(0, 1)
+Time: 0s
+Total nodes: 16
+Total edge: 31
+Total biconnected components: 5
+Total articulation points: 4
+[cheimu@localhost hw2]$ 
+

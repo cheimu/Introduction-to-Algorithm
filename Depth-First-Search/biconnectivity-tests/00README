@@ -1,0 +1,35 @@
+Biconnectivity Test Cases
+=========================
+
+This .zip archive contains 3 subdirectories:  tests, dots, generator
+
+  * "tests" contains a number of random graphs of various sizes in the
+    input format specified below.  Each should be connected and have 1
+    to 10 biconnected components.
+
+    Input format: each file contains a positive integer "N" followed by
+    some number of pairs of integers in the range 0 to N-1.  "N"
+    represents the number of vertices in the graph, and each pair u v
+    represents an edge between vertices u and v.  (Although a good
+    program really should check for the following malformed inputs,
+    you may simply assume that you never get: negative numbers,
+    numbers outside the range 0 to N-1, an even number of integers in
+    total (i.e., the last pair is unfinished), or a pair u v where
+    u=v, or where either (u,v) or (v,u) duplicates a previous pair in
+    the list.)
+
+    Test files are named nXXdYYsZZ.txt, where XX is the number of
+    nodes, YY is the approximate average degree and ZZ is the seed to
+    the random number generator.
+
+  * "dots": If you are interested in viewing them, the smaller of
+    those graphs are also provided as ".dot" files for the wonderful
+    <a href=\"http://www.graphviz.org/\">Graphviz</a> program.
+
+  * "generator": Finally, if (and only if) you want to generate
+    additional test cases, or are curious, the \"generator\" folder
+    contains the C and R code I used to generate these examples.  (No
+    warranties, express or implied, etc., etc.)
+
+Also, "old-testcase.txt" is a simple test case that you may use for
+debugging.  Visually, it looks like: old-testcase.png
